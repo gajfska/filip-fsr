@@ -62,4 +62,32 @@ $(function () {
             enabled: true
         }
     })
-})
+});
+
+
+/* SPONSORS */
+$(function () {
+    $("#sponsors-list").owlCarousel({
+        items: 5,
+        autoplay: true, /*automatyczne przełączanie na kolejną osobę*/
+        smartSpeed: 700, /*czas przełączania*/
+        loop: true, /*ludzie w pętli*/
+        autoplayHoverPause: true,
+        responsive : {
+            0 : {
+                items: 1
+            },
+            480 : {
+                items: 3
+            },
+            768 : {
+                items: 5
+            },
+            992 : {
+                items: 5
+            }
+
+        }
+
+    });
+});

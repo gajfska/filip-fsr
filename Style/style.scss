@@ -10,7 +10,6 @@ $dark-green: #439A86;
 $grey-green: #5D737E;
 $dirty-white: #E5E5E5;
 
-
 html, body {
   height: 100%;
 }
@@ -419,4 +418,9 @@ blockquote {
 .img-wrapper img:hover{
   transform: scale(1.5);
   cursor: zoom-in;
+}
+
+//SPONSORS
+.sponsor{
+  padding: 40px 0;
 }
