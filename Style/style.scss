@@ -74,6 +74,61 @@ body {
   animation-delay: .8s;
 }
 
+//TITLE
+.content-box{
+  padding: 80px 0 40px 0;
+}
+.content-title h3{
+  color: $dark-blue;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.content-underline {
+  width: 50px;
+  height: 3px;
+  background-color: $sea-blue;
+  margin: 0 auto 30px auto;
+}
+
+//ABOUT
+#about-bg-diagonal{
+  width: 60%;
+  height: 700px;
+  float: right;
+  background-image: url("../Img/about3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-left: 200px solid white;
+  border-top: 700px solid transparent;
+}
+#about-content-box{
+  float: left;
+  height: 700px;
+}
+#about-content-box-outer{
+  width: 100%;
+  height: 100%;
+}
+#about-content-box-inner{
+  display: table-cell;
+  vertical-align: middle;
+}
+#about .content-title h3{
+  text-align: left;
+}
+#about .content-underline{
+  margin: 0 0 30px 0;
+}
+#about-desc p{
+  margin-bottom: 30px;
+}
+
 //BUTTON
 .btn-general {
   border-width: 3px;
