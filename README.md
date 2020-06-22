@@ -1,4 +1,4 @@
-# Webstir for FSR player
+# Website for FSR player
 
 ## Project Overview
 
